@@ -1,0 +1,10 @@
+//The Erase String Program
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int argc, char *argv[]){
+	string name="Diogo Andre Braga Oliveira";
+	string name2=name.erase(6,12);//The first number tells the position you want to start deleting and the second number is the number of characters you want to delete.
+	cout<<"The name is "<<name2;
+	return 0;
+}
