@@ -1,0 +1,12 @@
+//The Insert String Program
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int argc, char *argv[]){
+	string s1,name="Diogo  Olivera";
+	cout<<"Write a name to add."<<endl;
+	cin>>s1;
+	name.insert(6,s1);//The first number is the position where the name will be and the "s1" is the name you wrote.
+	cout<<name<<endl;
+	return 0;
+}
