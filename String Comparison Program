@@ -1,0 +1,23 @@
+//String Comparison Program (A name is "bigger" if in alphabetical order it comes after the other name.) 
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int charc, char *argv[]){
+    string s1, s2;
+    cout<<"Write the first name."<<endl;
+    cin>>s1;
+    cout<<"Write the second name."<<endl;
+    cin>>s2;
+    if(s1==s2){
+        cout<<"The names are identical!"<<endl;
+        return 0;
+    }else{
+        cout<<"The names are different!"<<endl;
+        if(s1>s2){
+            cout<<"The first name is bigger!"<<endl;
+        }if(s1<s2){
+            cout<<"The second name is bigger!"<<endl;
+        }
+    }
+    return 0;
+}
