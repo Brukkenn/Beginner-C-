@@ -1,0 +1,18 @@
+//String Command for EMPTY()function
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int argc, char *argv[]){
+    bool ctrl;
+    string s1="";//empty string
+    //Delete the "/*" and "*/" if you wish to write a name.
+    /*cout<<"Enter a name in the string."<<endl;
+    cin>>s1;*/
+    ctrl=s1.empty();
+    if(ctrl==true){
+        cout<<"The string is empty."<<endl;
+    }else{
+        cout<<"The string is full."<<endl;
+    }
+    return 0;
+}
