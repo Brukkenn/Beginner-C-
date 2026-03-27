@@ -1,0 +1,23 @@
+//The positive numbers.
+#include <iostream>
+using namespace std;
+int main(int argc, char *argv[]){
+    int y, i=0;
+    char c={};
+    cout<<"Welcome."<<endl;
+    for(;c!='x';){
+        cout<<"Write a number between -10 and 10."<<endl;
+        cin>>y;
+        if(y<-10||y>10){
+            cout<<"A number between -10 and 10!"<<endl;
+        }else{
+            if(y>0){
+        i=++i;
+    }
+    }
+    cout<<"Press x to stop adding numbers, press other key to keep going."<<endl;
+    cin>>c;    
+    }cout<<"The amount of positive numbers are "<< i <<"."<<endl;
+    
+return 0;
+}
