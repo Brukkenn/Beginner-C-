@@ -1,0 +1,10 @@
+//The Subtract String Program
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int argc, char *argv[]){
+	string name="Diogo Andre Braga Oliveira";
+	string name2 = name.substr(0,6);//The first number tells the start of where do you want to keep and the second number is the amount of characters you want to keep.
+	cout<<"Ok, the ending name is now "<< name2<<"."<<endl;
+	return 0;
+}
