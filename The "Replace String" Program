@@ -1,0 +1,12 @@
+//The Replace String Program
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int argc, char *argv[]){
+	string s1, name2, name="Diogo Andre Braga Oliveira";
+	cout<<"Write a name to replace."<<endl;
+	cin>>s1;
+	name2= name.replace(0,5,s1);//The first number tells the beginning of the place where you wish to replace, the second number tells the ending of the name you want to replace and s1 is the name you wrote.
+	cout<<"The new name is "<<name2;
+	return 0;
+}
