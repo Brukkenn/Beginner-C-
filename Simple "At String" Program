@@ -1,0 +1,9 @@
+//Simple At String Program
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int argc, char *argv[]){
+	string name="Diogo Andre Braga Oliveira";
+	cout<<"The character is "<<name.at(0);//The number inside chooses the character it will pick depending on it's position.
+	return 0;
+}
