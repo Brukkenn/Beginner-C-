@@ -1,0 +1,17 @@
+//String Length Command for 2 names.
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int argc, char *argv[]){
+    string s1,s2;
+    int i;
+    cout<<"Enter the first word"<<endl;
+    cin>>s1;
+    cout<<"Enter the second word"<<endl;
+    cin>>s2;
+    i=s1.length();
+    cout<<"The first name has "<<i<<" letters."<<endl;
+    i=s2.length();
+    cout<<"The second name has "<<i<<" letters."<<endl;
+    return 0;
+}
